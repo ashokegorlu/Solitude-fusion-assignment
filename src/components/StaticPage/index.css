@@ -1,0 +1,144 @@
+.static-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 767px) {
+  .static-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.bg-container {
+  background-color: #e08b87;
+  color: #19153b;
+  height: 100vh;
+  background-size: cover;
+  padding: 8px;
+}
+.container {
+  margin: 6px;
+  height: 100%;
+  display: flex;
+}
+.logos-container {
+  width: 18%;
+  height: 100%;
+  flex-shrink: 0;
+}
+.description-container {
+  width: 80%;
+  height: 86%;
+  flex-shrink: 1;
+}
+.profile-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-size {
+  padding-left: 4px;
+  padding-top: 4px;
+}
+.border {
+  height: 50px;
+  width: 50px;
+  border: #19153b solid 4px;
+  padding: 5px;
+  border-radius: 50px;
+}
+.padding-interest {
+  padding-top: 18px;
+  padding-left: 6px;
+}
+.profile-description-container {
+  display: flex;
+  height: 18%;
+}
+.work-description-container {
+  display: flex;
+  height: 25%;
+}
+.skills-description-container {
+  display: flex;
+  height: 21%;
+}
+.interests-description-container {
+  display: flex;
+  justify-content: space-around;
+  height: 19%;
+  padding-top: 10px;
+}
+.education-description-container {
+  display: flex;
+  height: 15%;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0%;
+  margin: 0%;
+}
+.left-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 10px;
+}
+.right-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+p {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1%;
+  margin: 0%;
+}
+.para-director {
+  align-self: flex-start !important;
+  padding-left: 35px;
+}
+li {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px;
+}
+hr {
+  color: #19153b;
+  border: #19153b solid 2px;
+}
+ul {
+  list-style-type: none;
+}
+.vertical-line {
+  border-left: 3px solid #19153b;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+.skills {
+  display: flex;
+  flex-direction: row !important;
+}
+.logos-padding {
+  padding-bottom: 25px;
+}
+.work-width {
+  width: 30% !important;
+}
+.padding {
+  padding-bottom: 50px;
+}
+.padding-work {
+  padding-bottom: 30px;
+}
+.background {
+  background-color: #19153b;
+}
